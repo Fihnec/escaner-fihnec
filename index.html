@@ -1,18 +1,33 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
 <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>FIHNEC Check-In</title>
+  <title>Escáner FIHNEC</title>
 
-<link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="styles.css">
 
+  <script src="https://unpkg.com/html5-qrcode"></script>
 </head>
 
 <body>
 
-<h1>FIHNEC Check-In</h1>
+  <h1>Escanear invitado</h1>
 
-<script src="app.js"></script>
+  <div id="reader"></div>
+
+  <p id="mensaje">Presione el botón para activar la cámara.</p>
+
+  <button id="btnCamara" type="button">
+    Abrir cámara
+  </button>
+
+  <button id="btnOtro" type="button" hidden>
+    Escanear otro
+  </button>
+
+  <script src="app.js"></script>
 
 </body>
 </html>
