@@ -1,5 +1,19 @@
-body{
+body {
+  font-family: Arial, sans-serif;
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+}
 
-font-family:Arial;
+#reader {
+  width: 100%;
+  margin: 20px auto;
+}
 
+button {
+  width: 100%;
+  padding: 16px;
+  margin-top: 15px;
+  font-size: 18px;
 }
